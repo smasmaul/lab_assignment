@@ -1,0 +1,194 @@
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/contacts/contact-4/assets/css/contact-4.css">
+
+.bg-color-1{
+    background-color: rgba(0, 255, 255, 0.466);
+}
+.bg-color-2{
+    background-color: rgb(167, 207, 243);
+}
+.bg-color-3{
+    background-color: rgb(167, 243, 199);
+}
+.bg-color-4{
+    background-color: rgb(242, 210, 185);
+}
+.testimonials-clean {
+    color:#313437;
+    background-color:#eef4f7;
+  }
+  
+  .testimonials-clean p {
+    color:#7d8285;
+  }
+  
+  .testimonials-clean h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .testimonials-clean h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .testimonials-clean .intro p {
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .people {
+    padding:50px 0 20px;
+  }
+  
+  .testimonials-clean .item {
+    margin-bottom:32px;
+  }
+  
+  @media (min-width:768px) {
+    .testimonials-clean .item {
+      height:220px;
+    }
+  }
+  
+  .testimonials-clean .item .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+  }
+  
+  .testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+  }
+  
+  .testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+  }
+  
+  .testimonials-clean .item .title {
+    font-size:13px;
+    color:#9da9ae;
+  }
+  
+  .testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .item img {
+    max-width:40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+  }
+  
+  body{margin-top:20px;}
+  .section_padding_130 {
+      padding-top: 130px;
+      padding-bottom: 130px;
+  }
+  .faq_area {
+      position: relative;
+      z-index: 1;
+      background-color: #f5f5ff;
+  }
+  
+  .faq-accordian {
+      position: relative;
+      z-index: 1;
+  }
+  .faq-accordian .card {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 1.5rem;
+  }
+  .faq-accordian .card:last-child {
+      margin-bottom: 0;
+  }
+  .faq-accordian .card .card-header {
+      background-color: #ffffff;
+      padding: 0;
+      border-bottom-color: #ebebeb;
+  }
+  .faq-accordian .card .card-header h6 {
+      cursor: pointer;
+      padding: 1.75rem 2rem;
+      color: #3f43fd;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -ms-grid-row-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+  }
+  .faq-accordian .card .card-header h6 span {
+      font-size: 1.5rem;
+  }
+  .faq-accordian .card .card-header h6.collapsed {
+      color: #070a57;
+  }
+  .faq-accordian .card .card-header h6.collapsed span {
+      -webkit-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+  }
+  .faq-accordian .card .card-body {
+      padding: 1.75rem 2rem;
+  }
+  .faq-accordian .card .card-body p:last-child {
+      margin-bottom: 0;
+  }
+  
+  @media only screen and (max-width: 575px) {
+      .support-button p {
+          font-size: 14px;
+      }
+  }
+  
+  .support-button i {
+      color: #3f43fd;
+      font-size: 1.25rem;
+  }
+  @media only screen and (max-width: 575px) {
+      .support-button i {
+          font-size: 1rem;
+      }
+  }
+  
+  .support-button a {
+      text-transform: capitalize;
+      color: #2ecc71;
+  }
+  @media only screen and (max-width: 575px) {
+      .support-button a {
+          font-size: 13px;
+      }
+  }
